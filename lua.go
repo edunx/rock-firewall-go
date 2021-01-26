@@ -6,8 +6,8 @@ import (
 )
 
 const (
-	FirewalldMt string = "firewalld_mt"
-	IptablesMt  string = "iptables_mt"
+	FirewalldMt string = "ROCK_FIREWALLD_MT"
+	IptablesMt  string = "ROCK_IPTABLES_MT"
 )
 
 func LuaInjectApi(L *lua.LState, parent *lua.LTable) {
